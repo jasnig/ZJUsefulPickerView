@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A1672F61DC59AFE0013DCF0 /* Area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A1672E51DC59AFE0013DCF0 /* Area.plist */; };
+		4A1672F71DC59AFE0013DCF0 /* City.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A1672E61DC59AFE0013DCF0 /* City.plist */; };
+		4A1672F81DC59AFE0013DCF0 /* Province.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A1672E71DC59AFE0013DCF0 /* Province.plist */; };
+		4A1672F91DC59AFE0013DCF0 /* ZJDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1672E91DC59AFE0013DCF0 /* ZJDatePickerView.m */; };
+		4A1672FA1DC59AFE0013DCF0 /* ZJMultipleAssociatedPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1672EB1DC59AFE0013DCF0 /* ZJMultipleAssociatedPickerView.m */; };
+		4A1672FB1DC59AFE0013DCF0 /* ZJMultiplePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1672ED1DC59AFE0013DCF0 /* ZJMultiplePickerView.m */; };
+		4A1672FC1DC59AFE0013DCF0 /* ZJSelectedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1672EF1DC59AFE0013DCF0 /* ZJSelectedTextField.m */; };
+		4A1672FD1DC59AFE0013DCF0 /* ZJSinglePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1672F11DC59AFE0013DCF0 /* ZJSinglePickerView.m */; };
+		4A1672FE1DC59AFE0013DCF0 /* ZJToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1672F31DC59AFE0013DCF0 /* ZJToolBar.m */; };
+		4A1672FF1DC59AFE0013DCF0 /* ZJUsefulPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1672F51DC59AFE0013DCF0 /* ZJUsefulPickerView.m */; };
+		4A1673021DC59BFE0013DCF0 /* ZJBtnDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1673011DC59BFE0013DCF0 /* ZJBtnDemoViewController.m */; };
+		4A1673051DC59C080013DCF0 /* ZJTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1673041DC59C080013DCF0 /* ZJTextFieldViewController.m */; };
+		4A2103D71D82408F00330AAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2103D61D82408F00330AAE /* main.m */; };
+		4A2103DA1D82408F00330AAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2103D91D82408F00330AAE /* AppDelegate.m */; };
+		4A2103DD1D82408F00330AAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2103DC1D82408F00330AAE /* ViewController.m */; };
+		4A2103E01D82408F00330AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2103DE1D82408F00330AAE /* Main.storyboard */; };
+		4A2103E21D82408F00330AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2103E11D82408F00330AAE /* Assets.xcassets */; };
+		4A2103E51D82408F00330AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2103E31D82408F00330AAE /* LaunchScreen.storyboard */; };
+		4A2103F01D82409000330AAE /* ZJUsefulPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2103EF1D82409000330AAE /* ZJUsefulPickerViewTests.m */; };
+		4A2103FB1D82409000330AAE /* ZJUsefulPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2103FA1D82409000330AAE /* ZJUsefulPickerViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A2103EC1D82409000330AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A2103CA1D82408F00330AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A2103D11D82408F00330AAE;
+			remoteInfo = ZJUsefulPickerView;
+		};
+		4A2103F71D82409000330AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A2103CA1D82408F00330AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A2103D11D82408F00330AAE;
+			remoteInfo = ZJUsefulPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A1672E51DC59AFE0013DCF0 /* Area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Area.plist; sourceTree = "<group>"; };
+		4A1672E61DC59AFE0013DCF0 /* City.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = City.plist; sourceTree = "<group>"; };
+		4A1672E71DC59AFE0013DCF0 /* Province.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Province.plist; sourceTree = "<group>"; };
+		4A1672E81DC59AFE0013DCF0 /* ZJDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDatePickerView.h; sourceTree = "<group>"; };
+		4A1672E91DC59AFE0013DCF0 /* ZJDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDatePickerView.m; sourceTree = "<group>"; };
+		4A1672EA1DC59AFE0013DCF0 /* ZJMultipleAssociatedPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJMultipleAssociatedPickerView.h; sourceTree = "<group>"; };
+		4A1672EB1DC59AFE0013DCF0 /* ZJMultipleAssociatedPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJMultipleAssociatedPickerView.m; sourceTree = "<group>"; };
+		4A1672EC1DC59AFE0013DCF0 /* ZJMultiplePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJMultiplePickerView.h; sourceTree = "<group>"; };
+		4A1672ED1DC59AFE0013DCF0 /* ZJMultiplePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJMultiplePickerView.m; sourceTree = "<group>"; };
+		4A1672EE1DC59AFE0013DCF0 /* ZJSelectedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSelectedTextField.h; sourceTree = "<group>"; };
+		4A1672EF1DC59AFE0013DCF0 /* ZJSelectedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSelectedTextField.m; sourceTree = "<group>"; };
+		4A1672F01DC59AFE0013DCF0 /* ZJSinglePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSinglePickerView.h; sourceTree = "<group>"; };
+		4A1672F11DC59AFE0013DCF0 /* ZJSinglePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSinglePickerView.m; sourceTree = "<group>"; };
+		4A1672F21DC59AFE0013DCF0 /* ZJToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJToolBar.h; sourceTree = "<group>"; };
+		4A1672F31DC59AFE0013DCF0 /* ZJToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJToolBar.m; sourceTree = "<group>"; };
+		4A1672F41DC59AFE0013DCF0 /* ZJUsefulPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJUsefulPickerView.h; sourceTree = "<group>"; };
+		4A1672F51DC59AFE0013DCF0 /* ZJUsefulPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJUsefulPickerView.m; sourceTree = "<group>"; };
+		4A1673001DC59BFE0013DCF0 /* ZJBtnDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJBtnDemoViewController.h; sourceTree = "<group>"; };
+		4A1673011DC59BFE0013DCF0 /* ZJBtnDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJBtnDemoViewController.m; sourceTree = "<group>"; };
+		4A1673031DC59C080013DCF0 /* ZJTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTextFieldViewController.h; sourceTree = "<group>"; };
+		4A1673041DC59C080013DCF0 /* ZJTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTextFieldViewController.m; sourceTree = "<group>"; };
+		4A2103D21D82408F00330AAE /* ZJUsefulPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJUsefulPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2103D61D82408F00330AAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A2103D81D82408F00330AAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A2103D91D82408F00330AAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A2103DB1D82408F00330AAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A2103DC1D82408F00330AAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A2103DF1D82408F00330AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A2103E11D82408F00330AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A2103E41D82408F00330AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A2103E61D82408F00330AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2103EB1D82409000330AAE /* ZJUsefulPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJUsefulPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2103EF1D82409000330AAE /* ZJUsefulPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJUsefulPickerViewTests.m; sourceTree = "<group>"; };
+		4A2103F11D82409000330AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2103F61D82409000330AAE /* ZJUsefulPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJUsefulPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2103FA1D82409000330AAE /* ZJUsefulPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJUsefulPickerViewUITests.m; sourceTree = "<group>"; };
+		4A2103FC1D82409000330AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A2103CF1D82408F00330AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2103E81D82409000330AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2103F31D82409000330AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A1672E41DC59AFE0013DCF0 /* ZJUsefulPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4A1672E51DC59AFE0013DCF0 /* Area.plist */,
+				4A1672E61DC59AFE0013DCF0 /* City.plist */,
+				4A1672E71DC59AFE0013DCF0 /* Province.plist */,
+				4A1672E81DC59AFE0013DCF0 /* ZJDatePickerView.h */,
+				4A1672E91DC59AFE0013DCF0 /* ZJDatePickerView.m */,
+				4A1672EA1DC59AFE0013DCF0 /* ZJMultipleAssociatedPickerView.h */,
+				4A1672EB1DC59AFE0013DCF0 /* ZJMultipleAssociatedPickerView.m */,
+				4A1672EC1DC59AFE0013DCF0 /* ZJMultiplePickerView.h */,
+				4A1672ED1DC59AFE0013DCF0 /* ZJMultiplePickerView.m */,
+				4A1672EE1DC59AFE0013DCF0 /* ZJSelectedTextField.h */,
+				4A1672EF1DC59AFE0013DCF0 /* ZJSelectedTextField.m */,
+				4A1672F01DC59AFE0013DCF0 /* ZJSinglePickerView.h */,
+				4A1672F11DC59AFE0013DCF0 /* ZJSinglePickerView.m */,
+				4A1672F21DC59AFE0013DCF0 /* ZJToolBar.h */,
+				4A1672F31DC59AFE0013DCF0 /* ZJToolBar.m */,
+				4A1672F41DC59AFE0013DCF0 /* ZJUsefulPickerView.h */,
+				4A1672F51DC59AFE0013DCF0 /* ZJUsefulPickerView.m */,
+			);
+			path = ZJUsefulPickerView;
+			sourceTree = "<group>";
+		};
+		4A2103C91D82408F00330AAE = {
+			isa = PBXGroup;
+			children = (
+				4A2103D41D82408F00330AAE /* ZJUsefulPickerView */,
+				4A2103EE1D82409000330AAE /* ZJUsefulPickerViewTests */,
+				4A2103F91D82409000330AAE /* ZJUsefulPickerViewUITests */,
+				4A2103D31D82408F00330AAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A2103D31D82408F00330AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A2103D21D82408F00330AAE /* ZJUsefulPickerView.app */,
+				4A2103EB1D82409000330AAE /* ZJUsefulPickerViewTests.xctest */,
+				4A2103F61D82409000330AAE /* ZJUsefulPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A2103D41D82408F00330AAE /* ZJUsefulPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4A2103D81D82408F00330AAE /* AppDelegate.h */,
+				4A2103D91D82408F00330AAE /* AppDelegate.m */,
+				4A1673001DC59BFE0013DCF0 /* ZJBtnDemoViewController.h */,
+				4A1673011DC59BFE0013DCF0 /* ZJBtnDemoViewController.m */,
+				4A1673031DC59C080013DCF0 /* ZJTextFieldViewController.h */,
+				4A1673041DC59C080013DCF0 /* ZJTextFieldViewController.m */,
+				4A2103DB1D82408F00330AAE /* ViewController.h */,
+				4A2103DC1D82408F00330AAE /* ViewController.m */,
+				4A1672E41DC59AFE0013DCF0 /* ZJUsefulPickerView */,
+				4A2103DE1D82408F00330AAE /* Main.storyboard */,
+				4A2103E11D82408F00330AAE /* Assets.xcassets */,
+				4A2103E31D82408F00330AAE /* LaunchScreen.storyboard */,
+				4A2103E61D82408F00330AAE /* Info.plist */,
+				4A2103D51D82408F00330AAE /* Supporting Files */,
+			);
+			path = ZJUsefulPickerView;
+			sourceTree = "<group>";
+		};
+		4A2103D51D82408F00330AAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A2103D61D82408F00330AAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A2103EE1D82409000330AAE /* ZJUsefulPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A2103EF1D82409000330AAE /* ZJUsefulPickerViewTests.m */,
+				4A2103F11D82409000330AAE /* Info.plist */,
+			);
+			path = ZJUsefulPickerViewTests;
+			sourceTree = "<group>";
+		};
+		4A2103F91D82409000330AAE /* ZJUsefulPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A2103FA1D82409000330AAE /* ZJUsefulPickerViewUITests.m */,
+				4A2103FC1D82409000330AAE /* Info.plist */,
+			);
+			path = ZJUsefulPickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A2103D11D82408F00330AAE /* ZJUsefulPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2103FF1D82409000330AAE /* Build configuration list for PBXNativeTarget "ZJUsefulPickerView" */;
+			buildPhases = (
+				4A2103CE1D82408F00330AAE /* Sources */,
+				4A2103CF1D82408F00330AAE /* Frameworks */,
+				4A2103D01D82408F00330AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJUsefulPickerView;
+			productName = ZJUsefulPickerView;
+			productReference = 4A2103D21D82408F00330AAE /* ZJUsefulPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A2103EA1D82409000330AAE /* ZJUsefulPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2104021D82409000330AAE /* Build configuration list for PBXNativeTarget "ZJUsefulPickerViewTests" */;
+			buildPhases = (
+				4A2103E71D82409000330AAE /* Sources */,
+				4A2103E81D82409000330AAE /* Frameworks */,
+				4A2103E91D82409000330AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A2103ED1D82409000330AAE /* PBXTargetDependency */,
+			);
+			name = ZJUsefulPickerViewTests;
+			productName = ZJUsefulPickerViewTests;
+			productReference = 4A2103EB1D82409000330AAE /* ZJUsefulPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A2103F51D82409000330AAE /* ZJUsefulPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2104051D82409000330AAE /* Build configuration list for PBXNativeTarget "ZJUsefulPickerViewUITests" */;
+			buildPhases = (
+				4A2103F21D82409000330AAE /* Sources */,
+				4A2103F31D82409000330AAE /* Frameworks */,
+				4A2103F41D82409000330AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A2103F81D82409000330AAE /* PBXTargetDependency */,
+			);
+			name = ZJUsefulPickerViewUITests;
+			productName = ZJUsefulPickerViewUITests;
+			productReference = 4A2103F61D82409000330AAE /* ZJUsefulPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A2103CA1D82408F00330AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZeroJ;
+				TargetAttributes = {
+					4A2103D11D82408F00330AAE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9G8PCT5S2D;
+					};
+					4A2103EA1D82409000330AAE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9G8PCT5S2D;
+						TestTargetID = 4A2103D11D82408F00330AAE;
+					};
+					4A2103F51D82409000330AAE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9G8PCT5S2D;
+						TestTargetID = 4A2103D11D82408F00330AAE;
+					};
+				};
+			};
+			buildConfigurationList = 4A2103CD1D82408F00330AAE /* Build configuration list for PBXProject "ZJUsefulPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A2103C91D82408F00330AAE;
+			productRefGroup = 4A2103D31D82408F00330AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A2103D11D82408F00330AAE /* ZJUsefulPickerView */,
+				4A2103EA1D82409000330AAE /* ZJUsefulPickerViewTests */,
+				4A2103F51D82409000330AAE /* ZJUsefulPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A2103D01D82408F00330AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2103E51D82408F00330AAE /* LaunchScreen.storyboard in Resources */,
+				4A1672F71DC59AFE0013DCF0 /* City.plist in Resources */,
+				4A1672F81DC59AFE0013DCF0 /* Province.plist in Resources */,
+				4A1672F61DC59AFE0013DCF0 /* Area.plist in Resources */,
+				4A2103E21D82408F00330AAE /* Assets.xcassets in Resources */,
+				4A2103E01D82408F00330AAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2103E91D82409000330AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2103F41D82409000330AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A2103CE1D82408F00330AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1672FF1DC59AFE0013DCF0 /* ZJUsefulPickerView.m in Sources */,
+				4A1672FB1DC59AFE0013DCF0 /* ZJMultiplePickerView.m in Sources */,
+				4A1673051DC59C080013DCF0 /* ZJTextFieldViewController.m in Sources */,
+				4A1672F91DC59AFE0013DCF0 /* ZJDatePickerView.m in Sources */,
+				4A1672FC1DC59AFE0013DCF0 /* ZJSelectedTextField.m in Sources */,
+				4A2103DD1D82408F00330AAE /* ViewController.m in Sources */,
+				4A1672FA1DC59AFE0013DCF0 /* ZJMultipleAssociatedPickerView.m in Sources */,
+				4A2103DA1D82408F00330AAE /* AppDelegate.m in Sources */,
+				4A1672FD1DC59AFE0013DCF0 /* ZJSinglePickerView.m in Sources */,
+				4A2103D71D82408F00330AAE /* main.m in Sources */,
+				4A1673021DC59BFE0013DCF0 /* ZJBtnDemoViewController.m in Sources */,
+				4A1672FE1DC59AFE0013DCF0 /* ZJToolBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2103E71D82409000330AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2103F01D82409000330AAE /* ZJUsefulPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2103F21D82409000330AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2103FB1D82409000330AAE /* ZJUsefulPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A2103ED1D82409000330AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A2103D11D82408F00330AAE /* ZJUsefulPickerView */;
+			targetProxy = 4A2103EC1D82409000330AAE /* PBXContainerItemProxy */;
+		};
+		4A2103F81D82409000330AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A2103D11D82408F00330AAE /* ZJUsefulPickerView */;
+			targetProxy = 4A2103F71D82409000330AAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A2103DE1D82408F00330AAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2103DF1D82408F00330AAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A2103E31D82408F00330AAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2103E41D82408F00330AAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A2103FD1D82409000330AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A2103FE1D82409000330AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A2104001D82409000330AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJUsefulPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJUsefulPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A2104011D82409000330AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJUsefulPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJUsefulPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A2104031D82409000330AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJUsefulPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJUsefulPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJUsefulPickerView.app/ZJUsefulPickerView";
+			};
+			name = Debug;
+		};
+		4A2104041D82409000330AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJUsefulPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJUsefulPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJUsefulPickerView.app/ZJUsefulPickerView";
+			};
+			name = Release;
+		};
+		4A2104061D82409000330AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJUsefulPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJUsefulPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJUsefulPickerView;
+			};
+			name = Debug;
+		};
+		4A2104071D82409000330AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJUsefulPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJUsefulPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJUsefulPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A2103CD1D82408F00330AAE /* Build configuration list for PBXProject "ZJUsefulPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2103FD1D82409000330AAE /* Debug */,
+				4A2103FE1D82409000330AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2103FF1D82409000330AAE /* Build configuration list for PBXNativeTarget "ZJUsefulPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2104001D82409000330AAE /* Debug */,
+				4A2104011D82409000330AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2104021D82409000330AAE /* Build configuration list for PBXNativeTarget "ZJUsefulPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2104031D82409000330AAE /* Debug */,
+				4A2104041D82409000330AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2104051D82409000330AAE /* Build configuration list for PBXNativeTarget "ZJUsefulPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2104061D82409000330AAE /* Debug */,
+				4A2104071D82409000330AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A2103CA1D82408F00330AAE /* Project object */;
+}
