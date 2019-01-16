@@ -22,7 +22,7 @@ typedef UIView *(^SetupPickerViewBlock)();
     self.setupPickerViewBlock = ^UIView * {
         ZJSinglePickerView *single = [[ZJSinglePickerView alloc] initWithToolBarText:toolBarText withDefaultIndex:defaultIndex withData:data withValueDidChangedHandler:^(NSString *selectedValue){
             __strong typeof(weakSelf) strongSelf = weakSelf;
-            if (strongSelf) {
+            if (strongSelf && strongSelf.autoSetSelectedText) {
                 strongSelf.text = selectedValue;
             }
             
@@ -55,7 +55,7 @@ typedef UIView *(^SetupPickerViewBlock)();
     self.setupPickerViewBlock = ^UIView * {
         ZJMultiplePickerView *multiple = [[ZJMultiplePickerView alloc] initWithToolBarText:toolBarText withDefaultIndexs:defaultIndexs withData:data withValueDidChangedHandler:^(NSArray *selectedValues){
             __strong typeof(weakSelf) strongSelf = weakSelf;
-            if (strongSelf) {
+            if (strongSelf && strongSelf.autoSetSelectedText) {
                 NSString *tempString = @"";
                 for (NSString *value in selectedValues) {
                     tempString = [tempString stringByAppendingString:[NSString stringWithFormat:@"  %@",value]];
@@ -92,7 +92,7 @@ typedef UIView *(^SetupPickerViewBlock)();
     self.setupPickerViewBlock = ^UIView * {
         ZJMultipleAssociatedPickerView *multipleAsso = [[ZJMultipleAssociatedPickerView alloc] initWithToolBarText:toolBarText withDefaultValues:defaultValues withData:data withValueDidChangedHandler:^(NSArray *selectedValues){
             __strong typeof(weakSelf) strongSelf = weakSelf;
-            if (strongSelf) {
+            if (strongSelf && strongSelf.autoSetSelectedText) {
                 NSString *tempString = @"";
                 for (NSString *value in selectedValues) {
                     tempString = [tempString stringByAppendingString:[NSString stringWithFormat:@"  %@",value]];
@@ -128,7 +128,7 @@ typedef UIView *(^SetupPickerViewBlock)();
     self.setupPickerViewBlock = ^UIView * {
         ZJDatePickerView *dataPicker = [[ZJDatePickerView alloc] initWithToolBarText:toolBarText withStyle:style withValueDidChangedHandler:^(NSDate *selectedDate){
             __strong typeof(weakSelf) strongSelf = weakSelf;
-            if (strongSelf) {
+            if (strongSelf && strongSelf.autoSetSelectedText) {
                 strongSelf.text = [strongSelf.formatter stringFromDate:selectedDate];
             }
             
